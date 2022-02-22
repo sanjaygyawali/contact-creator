@@ -1,0 +1,63 @@
+[
+  "vcard",
+  [
+    ["version", {}, "text", "3.0"],
+    ["n", {}, "text", ["Doe", "John", "", "", ""]],
+    ["fn", {}, "text", "John Doe"],
+    ["org", {}, "text", "Example.com Inc.;"],
+    ["title", {}, "text", "Imaginary test person"],
+    [
+      "email",
+      { "type": ["internet", "work", "pref"] },
+      "text",
+      "johnDoe@example.org"
+    ],
+    ["tel", { "type": ["work", "pref"] }, "text", "+1 617 555 1212"],
+    ["tel", { "type": "work" }, "text", "+1 (617) 555-1234"],
+    ["tel", { "type": "cell" }, "text", "+1 781 555 1212"],
+    ["tel", { "type": "home" }, "text", "+1 202 555 1212"],
+    [
+      "adr",
+      { "group": "item1", "type": "work" },
+      "text",
+      ["", "", "2 Enterprise Avenue", "Worktown", "NY", "01111", "USA"]
+    ],
+    [
+      "adr",
+      { "group": "item2", "type": ["home", "pref"] },
+      "text",
+      ["", "", "3 Acacia Avenue", "Hoemtown", "MA", "02222", "USA"]
+    ],
+    ["xAbadr", { "group": "item1" }, "text", "us"],
+    ["xAbadr", { "group": "item2" }, "text", "us"],
+    [
+      "note",
+      {},
+      "text",
+      "John Doe has a long and varied history\\, being documented on more police files that anyone else. Reports of his death are alas numerous."
+    ],
+    [
+      "url",
+      { "group": "item3", "type": "pref" },
+      "text",
+      "http\\://www.example/com/doe"
+    ],
+    [
+      "url",
+      { "group": "item4" },
+      "text",
+      "http\\://www.example.com/Joe/foaf.df"
+    ],
+    ["xAbLabel", { "group": "item3" }, "text", "_$!<HomePage>!$_"],
+    ["xAbLabel", { "group": "item4" }, "text", "FOAF"],
+    ["xAbLabel", { "group": "item5" }, "text", "_$!<Friend>!$_"],
+    [
+      "xAbrelatednames",
+      { "group": "item5", "type": "pref" },
+      "text",
+      "Jane Doe"
+    ],
+    ["categories", {}, "text", "Work,Test group"],
+    ["xAbuid", {}, "text", "5AD380FD-B2DE-4261-BA99-DE1D1DB52FBE\\:ABPerson"]
+  ]
+]

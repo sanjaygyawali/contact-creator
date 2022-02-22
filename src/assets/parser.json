@@ -1,0 +1,66 @@
+{
+  "version": [{ "value": "3.0" }],
+  "n": [{ "value": ["Doe", "John", "", "", ""] }],
+  "fn": [{ "value": "John Doe" }],
+  "org": [{ "value": ["Example.com Inc.", ""] }],
+  "title": [{ "value": "Imaginary test person" }],
+  "email": [
+    {
+      "value": "johnDoe@example.org",
+      "meta": { "type": ["INTERNET", "WORK", "pref"] }
+    }
+  ],
+  "tel": [
+    { "value": "+1 617 555 1212", "meta": { "type": ["WORK", "pref"] } },
+    { "value": "+1 (617) 555-1234", "meta": { "type": ["WORK"] } },
+    { "value": "+1 781 555 1212", "meta": { "type": ["CELL"] } },
+    { "value": "+1 202 555 1212", "meta": { "type": ["HOME"] } }
+  ],
+  "adr": [
+    {
+      "value": [
+        "",
+        "",
+        "2 Enterprise Avenue",
+        "Worktown",
+        "NY",
+        "01111",
+        "USA"
+      ],
+      "meta": { "type": ["WORK"] },
+      "namespace": "item1"
+    },
+    {
+      "value": ["", "", "3 Acacia Avenue", "Hoemtown", "MA", "02222", "USA"],
+      "meta": { "type": ["HOME", "pref"] },
+      "namespace": "item2"
+    }
+  ],
+  "X-ABADR": [
+    { "value": "us", "namespace": "item1" },
+    { "value": "us", "namespace": "item2" }
+  ],
+  "note": [
+    {
+      "value": "John Doe has a long and varied history, being documented on more police files that anyone else. Reports of his death are alas numerous."
+    }
+  ],
+  "url": [
+    {
+      "value": "http\\://www.example/com/doe",
+      "meta": { "type": ["pref"] },
+      "namespace": "item3"
+    },
+    { "value": "http\\://www.example.com/Joe/foaf.df", "namespace": "item4" }
+  ],
+  "X-ABLabel": [
+    { "value": "_$!<HomePage>!$_", "namespace": "item3" },
+    { "value": "FOAF", "namespace": "item4" },
+    { "value": "_$!<Friend>!$_", "namespace": "item5" }
+  ],
+  "X-ABRELATEDNAMES": [
+    { "value": "Jane Doe", "meta": { "type": ["pref"] }, "namespace": "item5" }
+  ],
+  "categories": [{ "value": ["Work", "Test group"] }],
+  "X-ABUID": [{ "value": "5AD380FD-B2DE-4261-BA99-DE1D1DB52FBE\\:ABPerson" }]
+}
